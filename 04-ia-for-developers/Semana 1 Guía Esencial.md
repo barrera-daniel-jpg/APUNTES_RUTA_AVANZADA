@@ -54,6 +54,14 @@ Ejemplo: “Clasifica el siguiente texto como positivo, negativo o neutro: ‘El
 * **Rol y Restricciones:** Asignar una persona o rol claro (*"Actúa como un arquitecto de software senior..."*) y fijar fronteras explícitas (*"Si no sabes la respuesta, di 'no lo sé', no inventes"*).
 * **Metodología XML/Markdown:** Estructurar el prompt usando etiquetas claras (p. ej., `<instrucciones>`, `<contexto>`, `<salida_esperada>`) para evitar confusiones en textos largos.
 
+#### Buenas prácticas de Prompt Engineering:
+1. Sé específico: define el rol, formato de salida y restricciones 
+2. Usa delimitadores: separa instrucciones de datos con “---” o XML tags 
+3. Itera: un buen prompt rara vez sale perfecto a la primera 
+4. Controla la temperatura según la tarea 
+5. Proporciona contexto relevante, no excesivo 
+6. Pide formato específico: JSON, Markdown, tabla, etc. 
+
 ---
 
 ### 4. Alucinaciones y Límites Reales

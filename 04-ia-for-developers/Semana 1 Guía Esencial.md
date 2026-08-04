@@ -32,6 +32,8 @@ Un **LLM (Large Language Model)** es, en esencia, un sistema estadístico hiperc
 
 Cada modelo top del mercado tiene fortalezas de acuerdo con su diseño y entrenamiento:
 
+<img width="1202" height="845" alt="image" src="https://github.com/user-attachments/assets/b4d29373-fd3b-4ee0-932e-22a7d2c70970" />
+
 | Modelo | Desarrollador | Fortalezas Principales | Caso de Uso Ideal |
 | :--- | :--- | :--- | :--- |
 | **GPT-4o** | OpenAI | Latencia baja, soporte multimodal nativo (texto, visión, audio fluida) y ecosistema sólido de APIs. | Aplicaciones de propósito general, procesamiento en tiempo real y agentes. |
@@ -45,6 +47,8 @@ Cada modelo top del mercado tiene fortalezas de acuerdo con su diseño y entrena
 El *Prompt Engineering* no se trata de "saber qué pedir", sino de **estructurar el contexto y restringir el espacio de búsqueda de respuestas** del modelo.
 
 #### Técnicas Clave:
+* **Zero-Shot Prompting:** Funciona bien para tareas simples y bien definidas. Para tareas complejas o ambiguas, puede no ser suficiente. Consiste en pedirle al modelo que realice una tarea sin darle ningún ejemplo previo.El modelo se basa únicamente en su conocimiento de entrenamiento.
+Ejemplo: “Clasifica el siguiente texto como positivo, negativo o neutro: ‘El servicio fue excelente’”
 * **Few-Shot Prompting:** Proporcionar al modelo 2 o 3 ejemplos de entrada/salida deseada antes de hacer la pregunta real para guiar el formato exacto.
 * **Chain-of-Thought (CoT) / Cadenas de Pensamiento:** Pedirle al modelo que *"piense paso a paso"*. Esto obliga al sistema a generar tokens intermedios de razonamiento antes de dar la respuesta final, reduciendo errores drásticamente en matemática y lógica.
 * **Rol y Restricciones:** Asignar una persona o rol claro (*"Actúa como un arquitecto de software senior..."*) y fijar fronteras explícitas (*"Si no sabes la respuesta, di 'no lo sé', no inventes"*).

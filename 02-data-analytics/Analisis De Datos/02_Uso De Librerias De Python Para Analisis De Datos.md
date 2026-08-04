@@ -16,18 +16,18 @@
 
 ## 📑 Índice
 
-1. [Entorno de trabajo](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#1-entorno-de-trabajo)
-2. [Manipulación de estructuras de datos](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#2-manipulaci%C3%B3n-de-estructuras-de-datos)
-3. [Comprensiones y operaciones avanzadas](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#3-comprensiones-y-operaciones-avanzadas)
-4. [Manejo de archivos](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#4-manejo-de-archivos)
-5. [Procesamiento de datos](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#5-procesamiento-de-datos)
-6. [Manejo de errores y calidad de datos](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#6-manejo-de-errores-y-calidad-de-datos)
-7. [Eficiencia en el procesamiento](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#7-eficiencia-en-el-procesamiento)
-8. [Cierre: el puente hacia pandas](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#8-cierre-el-puente-hacia-pandas)
+1. [Entorno de trabajo](#s1)
+2. [Manipulación de estructuras de datos](#s2)
+3. [Comprensiones y operaciones avanzadas](#s3)
+4. [Manejo de archivos](#s4)
+5. [Procesamiento de datos](#s5)
+6. [Manejo de errores y calidad de datos](#s6)
+7. [Eficiencia en el procesamiento](#s7)
+8. [Cierre: el puente hacia pandas](#s8)
 
 ---
 
-## 1. Entorno de trabajo
+## <a id="s1"></a> 1. Entorno de trabajo
 
 Antes de analizar un DataFrame, lo más recomendable es empezar con un buen entorno de trabajo.
 
@@ -242,7 +242,7 @@ Si `sys.executable` **no** apunta a tu carpeta `.venv`, ahí está el problema: 
 
 ---
 
-## 2. Manipulación de estructuras de datos
+## <a id="s2"></a> 2. Manipulación de estructuras de datos
 
 Una vez tienes el entorno listo, el siguiente paso es entender cómo viven los datos dentro de Python.
 
@@ -311,7 +311,7 @@ equipo[0]["nombre"]   # 'Laura'
 
 ---
 
-## 3. Comprensiones y operaciones avanzadas
+## <a id="s3"></a> 3. Comprensiones y operaciones avanzadas
 
 Al inicio es común usar loops para procesar datos. Sin embargo, Python permite una forma más directa mediante **comprensiones**.
 
@@ -373,7 +373,7 @@ r = [x["a"]/x["b"] if x["b"] != 0 else 0 for x in datos if x.get("a") and x.get(
 
 ---
 
-## 4. Manejo de archivos
+## <a id="s4"></a> 4. Manejo de archivos
 
 Hasta ahora trabajaste con datos definidos dentro del código, pero en la realidad los datos vienen de fuentes externas.
 
@@ -471,7 +471,7 @@ La conversión de tipos es uno de los primeros pasos de cualquier limpieza de da
 
 ---
 
-## 5. Procesamiento de datos
+##  <a id="s5"></a>5. Procesamiento de datos
 
 Este es uno de los puntos más importantes de toda la clase.
 
@@ -559,7 +559,7 @@ promedios = {
 
 ---
 
-## 6. Manejo de errores y calidad de datos
+## <a id="s6"></a> 6. Manejo de errores y calidad de datos
 
 En la teoría, los datos son perfectos. En la práctica, no lo son.
 
@@ -655,7 +655,7 @@ Este punto conecta directamente con el tema de la siguiente semana: **limpieza d
 
 ---
 
-## 7. Eficiencia en el procesamiento
+##  <a id="s7"></a>7. Eficiencia en el procesamiento
 
 Finalmente aparece un concepto más avanzado: la **eficiencia**.
 
@@ -768,7 +768,7 @@ print(f"Tiempo: {time.perf_counter() - inicio:.4f} s")
 
 ---
 
-## 8. Cierre: el puente hacia pandas
+## <a id="s8"></a> 8. Cierre: el puente hacia pandas
 
 Todo lo que se hizo en este apunte con Python puro es exactamente lo que pandas resume en pocas líneas:
 

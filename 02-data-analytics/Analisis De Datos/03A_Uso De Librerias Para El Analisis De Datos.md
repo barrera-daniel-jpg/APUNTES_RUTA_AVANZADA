@@ -10,27 +10,27 @@
 |**2**|**`03A` ← estás aquí**|Qué son las librerías · NumPy · Pandas|
 |3|[`03B`](https://claude.ai/chat/03B_Librerias_para_analisis_de_datos_Parte2_Visualizacion.md)|Visualización con Matplotlib|
 
-> 📌 **Prerrequisito:** este apunte asume un entorno virtual activo con el stack instalado. Si no lo tienes, empieza por la [sección 1 del archivo 02](https://claude.ai/chat/02_Uso_de_librerias_de_Python_para_analisis_de_datos.md#1-entorno-de-trabajo).
+> 📌 **Prerrequisito:** este apunte asume un entorno virtual activo con el stack instalado. Si no lo tienes, empieza por la [sección 1 del archivo 02](https://github.com/barrera-daniel-jpg/APUNTES_RUTA_AVANZADA/blob/main/02-data-analytics/Analisis%20De%20Datos/02_Uso%20De%20Librerias%20De%20Python%20Para%20Analisis%20De%20Datos.md).
 
 ---
 
 ## 📑 Índice
 
-1. [¿Qué es una librería?](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#1-qu%C3%A9-es-una-librer%C3%ADa)
-2. [Prerrequisito: el entorno de trabajo](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#2-prerrequisito-el-entorno-de-trabajo)
-3. [¿Qué librerías existen en Python para el análisis de datos?](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#3-qu%C3%A9-librer%C3%ADas-existen-en-python-para-el-an%C3%A1lisis-de-datos)
-4. [¿Cuáles son las más usadas?](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#4-cu%C3%A1les-son-las-m%C3%A1s-usadas)
-5. [¿Para qué sirven realmente dentro del análisis de datos?](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#5-para-qu%C3%A9-sirven-realmente-dentro-del-an%C3%A1lisis-de-datos)
-6. [Métodos, atributos y parámetros](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#6-m%C3%A9todos-atributos-y-par%C3%A1metros)
-7. [NumPy: el motor que está debajo](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#7-numpy-el-motor-que-est%C3%A1-debajo)
-8. [Pandas en profundidad](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#8-pandas-en-profundidad)
-9. [Cómo leer la documentación oficial](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#9-c%C3%B3mo-leer-la-documentaci%C3%B3n-oficial)
-10. [Errores frecuentes con librerías](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#10-errores-frecuentes-con-librer%C3%ADas)
-11. [Checklist y glosario](https://claude.ai/chat/6830f90f-a5e2-4133-84a8-70f836ddcde5#11-checklist-y-glosario)
+1. [¿Qué es una librería?](#s1)
+2. [Prerrequisito: el entorno de trabajo](#s2)
+3. [¿Qué librerías existen en Python para el análisis de datos?](#s3)
+4. [¿Cuáles son las más usadas?](#s4)
+5. [¿Para qué sirven realmente dentro del análisis de datos?](#s5)
+6. [Métodos, atributos y parámetros](#s6)
+7. [NumPy: el motor que está debajo](#s7)
+8. [Pandas en profundidad](#s8)
+9. [Cómo leer la documentación oficial](#s9)
+10. [Errores frecuentes con librerías](#s10)
+11. [Checklist y glosario](#s11)
 
 ---
 
-## 1. ¿Qué es una librería?
+## <a id="s1"></a> 1. ¿Qué es una librería?
 
 Una **librería** (o biblioteca) es un conjunto de código ya escrito, probado y documentado por otras personas, que puedes importar en tu proyecto para resolver un problema sin programarlo desde cero.
 
@@ -130,7 +130,7 @@ No todo amerita una dependencia. Instalar una librería tiene costo:
 
 ---
 
-## 2. Prerrequisito: el entorno de trabajo
+## <a id="s2"></a>2. Prerrequisito: el entorno de trabajo
 
 > ⚠️ **Antes de instalar cualquier librería, necesitas un entorno virtual creado y activo.**
 
@@ -165,7 +165,7 @@ Si ambas líneas responden como se espera, puedes continuar.
 
 ---
 
-## 3. ¿Qué librerías existen en Python para el análisis de datos?
+## <a id="s3"></a> 3. ¿Qué librerías existen en Python para el análisis de datos?
 
 El ecosistema es amplio. Lo importante no es memorizarlas, sino saber **qué categoría resuelve qué problema**.
 
@@ -223,7 +223,7 @@ El ecosistema es amplio. Lo importante no es memorizarlas, sino saber **qué cat
 
 ---
 
-## 4. ¿Cuáles son las más usadas?
+## <a id="s4"></a>4. ¿Cuáles son las más usadas?
 
 Si tuvieras que aprender solo cinco, serían estas. Cubren la gran mayoría del trabajo real de un analista.
 
@@ -282,7 +282,7 @@ Fuente de datos (CSV, Excel, SQL, API)
 
 ---
 
-## 5. ¿Para qué sirven realmente dentro del análisis de datos?
+## <a id="s5"></a> 5. ¿Para qué sirven realmente dentro del análisis de datos?
 
 La respuesta corta: **te devuelven el tiempo.** La respuesta larga tiene cuatro partes.
 
@@ -334,7 +334,7 @@ Un pipeline de 200 líneas de loops propios solo lo entiendes tú. Uno de 20 lí
 
 ---
 
-## 6. Métodos, atributos y parámetros
+## <a id="s6"></a>6. Métodos, atributos y parámetros
 
 Esta confusión es muy común al empezar. La forma más simple de entenderlo:
 
@@ -475,7 +475,7 @@ df = df.dropna()             # ✅ explícito y encadenable
 
 ---
 
-## 7. NumPy: el motor que está debajo
+## <a id="s7"></a> 7. NumPy: el motor que está debajo
 
 Aunque casi nunca lo llames directamente, entender NumPy explica **por qué** pandas funciona como funciona.
 
@@ -554,7 +554,7 @@ Esta rareza es la razón por la que en pandas se usa `.isna()` y no `== None`.
 
 ---
 
-## 8. Pandas en profundidad
+## <a id="s8"></a> 8. Pandas en profundidad
 
 ### Las dos estructuras
 
@@ -831,7 +831,7 @@ resumen.to_csv("resumen_por_region.csv", index=False)
 
 ---
 
-## 9. Cómo leer la documentación oficial
+## <a id="s9"></a> <a id="s9"></a> 9. Cómo leer la documentación oficial
 
 Saber leer la documentación vale más que memorizar métodos. Es la habilidad que te independiza de los tutoriales.
 
@@ -866,7 +866,7 @@ dir(df)                  # lista todos los métodos y atributos disponibles
 
 ---
 
-## 10. Errores frecuentes con librerías
+## <a id="s10"></a>10. Errores frecuentes con librerías
 
 |Error|Causa|Solución|
 |---|---|---|
@@ -892,7 +892,7 @@ Si `sys.executable` no apunta a tu `.venv`, ahí está el problema.
 
 ---
 
-## 11. Checklist y glosario
+## <a id="s11"></a>11. Checklist y glosario
 
 ### ✅ Checklist de repaso
 
